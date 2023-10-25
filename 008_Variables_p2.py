@@ -8,10 +8,21 @@
 # Interpreted :code translated on the fly during Excution
 # python is dynamically typed language : can change during runtime
 #____________________________________
-
-x =10 
-x ="hello world"
+help("keywords") #Reserved words
+x = 10 
+x = "hello world"
 print(x);
+
+a,b,c = 1,2,3 # Declare more than one variable
+print(a);
+print(b);
+print(c);
+
+# d,e,f = 1,2  #  not enough values to unpack (expected 3, got 2)
+
+
+# m,n = 1,2,3 # too many values to unpack (expected 2)
+
 
 
 
