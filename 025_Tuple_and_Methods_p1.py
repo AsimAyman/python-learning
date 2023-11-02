@@ -42,3 +42,5 @@ a = ("A","B","Z")
 x, y, z = "A","B","Z"
 q,w , e = a # is the same
 y,_,u = a # to ignore one elemet
+
+
