@@ -33,3 +33,12 @@ print(myAwesomeList)  #[1]
 myAwesomeList = [1, 2, 3, 4, 5, 6, 7] 
 print(len(myAwesomeList)) #7
 print(myAwesomeList.index(myAwesomeList[-1])) #6
+
+
+#list comprehensions
+sq = [x ** 2 for x in range(1,10)]
+print(sq)
+evnum = [x for x in sq if x%2==0]
+print(evnum)
+
+ 
