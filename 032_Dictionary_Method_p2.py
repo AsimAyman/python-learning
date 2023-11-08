@@ -52,6 +52,8 @@ print(allItems)
 member.update({'address':"somewhere"})
 print(allItems)
 print(type(allItems))
+for k,v in member.items():
+    print(f'k {k},v {v}')
 # dict_items([('name', 'osama'), ('skill', 'php')])
 # dict_items([('name', 'osama'), ('skill', 'php'), ('address', 'somewhere')])
 # <class 'dict_items'>
