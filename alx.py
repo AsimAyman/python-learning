@@ -1,4 +1,9 @@
-a = 89
-b = 10
-a ,b = b,a
-print("a={:d} - b={:d}".format(a, b))
+def show_skills(**skill):
+    for i in skill:
+        print(i)
+
+m ={
+    'a':12,
+    'b':22
+}
+show_skills(**m)
