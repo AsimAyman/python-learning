@@ -1,5 +1,5 @@
 # --------------------------------
-# ----Built in function-----------
+# ----Built in function => map----
 # --------------------------------
 # map take A functoin + iterator
 # map called map because it map the function on every element
