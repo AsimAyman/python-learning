@@ -33,3 +33,4 @@ print(datetime.datetime(1996,10,10))
 
 
 print(datetime.datetime(1998,2,3) - datetime.datetime.now())
+print((datetime.datetime(1998,2,3) - datetime.datetime.now()).days)
