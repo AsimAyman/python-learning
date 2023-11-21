@@ -13,4 +13,5 @@ print(myBirthDay.strftime("%A")) #Saturday
 print(myBirthDay.strftime("%b")) #Oct
 print(myBirthDay.strftime("%B")) #October
 print(myBirthDay.strftime("%d %B %y"))  #23 October 93
+print(myBirthDay.strftime("%d /%B/ %y"))  #23 /October/ 93
 
