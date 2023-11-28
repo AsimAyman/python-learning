@@ -24,4 +24,7 @@ print(next(myIterator)) #s
 print(next(myIterator)) #s
 print(next(myIterator)) #e
 print(next(myIterator)) #m
-print(next(myIterator)) # error Tracback stopIteration
+# print(next(myIterator)) # error Tracback stopIteration
+
+for l in iter(myName):
+    print(l,end=" ")
