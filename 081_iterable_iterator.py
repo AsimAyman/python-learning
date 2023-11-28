@@ -12,3 +12,16 @@
 # give stopiteration if theres no next element
 #------------------------------
 
+myName = "assem"
+for l in myName:
+    print(l,end=" ")
+
+print("-"*50)
+
+myIterator = iter(myName)
+print(next(myIterator)) #a
+print(next(myIterator)) #s
+print(next(myIterator)) #s
+print(next(myIterator)) #e
+print(next(myIterator)) #m
+print(next(myIterator)) # error Tracback stopIteration
