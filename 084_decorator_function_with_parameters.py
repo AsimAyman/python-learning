@@ -25,3 +25,21 @@ def calc(n1, n2):
     print(n1+n2)
 
 calc(1,3)    
+
+
+
+def myDecorator (func):
+    def inner(*n):
+        for i in n:
+            if i <0 :
+                print("one of the numbers is less than zero")
+        func(*n)
+    return inner            
+
+
+       
+@myDecorator
+def calc(n1, n2): 
+    print(n1+n2)
+
+calc(1,3)    
